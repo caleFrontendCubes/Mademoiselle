@@ -1,4 +1,9 @@
 $base-font: $lato;
+$mademoiselle-color:  #ECD9D9;
+$body-color:#1E1E1E;
+$btn-border-color:$body-color;
+
+
 
 img{
     max-width: 100%;
@@ -6,5 +11,30 @@ img{
 body{
     font-family: $base-font;
     font-weight: $font-weight-normal;
+    color: $body-color;
 }
+main{
+    padding-top: 10rem;
+}
+h2{
+    font-family: $bodoni;
+    font-weight: $font-weight-light;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    line-height: 4.5rem;
+}
+a.learn-more{
+    border: 1px solid $btn-border-color;
+    padding: 15px;
+    display: inline-block;
+}
+.mb-6{
+    margin-bottom: 56px;
+}
+@media(min-width:576px){
+    a.learn-more{
+        padding: 15px 36px;
+    }
+}
+
 

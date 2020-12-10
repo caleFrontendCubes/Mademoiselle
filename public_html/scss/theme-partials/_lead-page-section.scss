@@ -1,0 +1,55 @@
+
+
+.lead-page-section{
+    padding: 218px 0 269px;
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+
+    .lead-section-content{
+        margin: 0 auto;
+        article{
+            text-align: center;
+            .lead-section-title{
+                font-size: 3.6rem;//6
+                font-weight: $font-weight-light;
+                line-height: 7rem;//8.4
+                letter-spacing: 0.8rem;//2
+                color: $white;
+                font-family: $bodoni;
+                max-width: 500px;
+            }  
+        }
+
+    }
+}
+@media(min-width:576px){
+    .lead-page-section{
+
+        .lead-section-content{
+            article{
+                .lead-section-title{
+                    font-size: 5rem;
+                    line-height: 7.8rem;
+                    letter-spacing: 1.5rem;
+                }  
+            }
+
+        }
+    }
+}
+@media(min-width:768px){
+    .lead-page-section{
+
+        .lead-section-content{
+            article{
+                .lead-section-title{
+                    font-size: 6rem;
+                    line-height: 8.4rem;
+                    letter-spacing: 2rem;
+                }  
+            }
+
+        }
+    }
+}

@@ -1,10 +1,20 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 08-Dec-2020, 16:17:17
-    Author     : Radiša
-*/
+$footer-social-color:$mademoiselle-color;
+
+footer{
+    padding-top: 20px;
+    .social{
+        a{
+            color: $footer-social-color;
+            margin-right: 33px;
+            &:last-of-type{
+                margin-right: 0;
+            }
+        }
+    }
+    .copyright{
+        font-size: 1.2rem;
+        line-height: 4.1rem;
+        letter-spacing: -0.17px;
+    }
+}
 

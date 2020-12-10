@@ -1,0 +1,34 @@
+.team-section{
+    
+    .team-item{
+        border: 1px solid $mademoiselle-color;
+        padding: 5px;
+        .team-item-content{
+            h2{
+                font-family: $lato;
+                line-height: 2.7;
+                letter-spacing: normal;
+            }
+        }
+    }
+}
+@media(min-width:768px){
+    .team-section{
+        .team-item{
+            padding: 40px;
+            .team-item-content{
+                padding-left: 40px;
+            }
+        }
+    }
+}
+@media(min-width:992px){
+    .team-section{
+        .team-item{
+            padding: 90px;
+            .team-item-content{
+                padding-left: 90px;
+            }
+        }
+    }
+}

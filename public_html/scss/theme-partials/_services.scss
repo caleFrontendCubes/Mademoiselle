@@ -1,0 +1,68 @@
+$service-bg-color-light:#F5F5F5;
+$bg-mademoiselle-light:#F5F5F5;
+$bg-mademoiselle-dark:#ECD9D9;
+
+
+.service-section{
+    padding-bottom: 100px;
+    .service-item{
+        .services-item-content{
+            padding:70px; 
+            h1{
+                font-size: 2rem;
+            }
+            &.light{
+                background-color: $bg-mademoiselle-light;
+            }
+            &.dark{
+                background-color: $bg-mademoiselle-dark;
+            }
+        }
+    }
+
+}
+@media(min-width:576px){
+    .service-section{
+        .service-item{
+            .services-item-content{
+                padding:150px 160px; 
+            }
+        }
+    }
+}
+@media(min-width:768px){
+    .service-section{
+        .service-item{
+            .services-item-content{
+                padding: 60px 40px; 
+                h1{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
+@media(min-width:992px){
+    .service-section{
+        .service-item{
+            .services-item-content{
+                padding: 87px 70px ; 
+                h1{
+                    font-size: 3.2rem;
+                }
+            }
+        }
+    }
+}
+@media(min-width:1200px){
+    .service-section{
+        .service-item{
+            .services-item-content{
+                padding: 136px 95px 95px; 
+                h1{
+                    font-size: 3.6rem;
+                }
+            }
+        }
+    }
+}
