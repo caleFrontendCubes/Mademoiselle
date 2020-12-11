@@ -7132,7 +7132,7 @@ h2 {
   letter-spacing: 5px;
   line-height: 4.5rem; }
 
-a.learn-more {
+a.mdms-link {
   border: 1px solid #1E1E1E;
   padding: 15px;
   display: inline-block; }
@@ -7141,7 +7141,7 @@ a.learn-more {
   margin-bottom: 56px; }
 
 @media (min-width: 576px) {
-  a.learn-more {
+  a.mdms-link {
     padding: 15px 36px; } }
 
 header .navbar .navbar-brand img {
@@ -7194,6 +7194,9 @@ footer {
   background-size: auto 100%;
   background-repeat: no-repeat; }
   .lead-page-section.service {
+    background-size: cover; }
+  .lead-page-section.error {
+    padding: 277px 0;
     background-size: cover; }
   .lead-page-section .lead-section-content {
     margin: 0 auto; }
@@ -7314,5 +7317,9 @@ footer {
 @media (min-width: 992px) {
   .service-single-section {
     padding: 250px 0 50px; } }
+
+.error .lead-section-content a {
+  border: 1px solid #fff;
+  color: #fff; }
 
 /*# sourceMappingURL=theme.css.map */

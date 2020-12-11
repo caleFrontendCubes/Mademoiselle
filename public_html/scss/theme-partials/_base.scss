@@ -23,7 +23,7 @@ h2{
     letter-spacing: 5px;
     line-height: 4.5rem;
 }
-a.learn-more{
+a.mdms-link{
     border: 1px solid $btn-border-color;
     padding: 15px;
     display: inline-block;
@@ -32,7 +32,7 @@ a.learn-more{
     margin-bottom: 56px;
 }
 @media(min-width:576px){
-    a.learn-more{
+    a.mdms-link{
         padding: 15px 36px;
     }
 }
