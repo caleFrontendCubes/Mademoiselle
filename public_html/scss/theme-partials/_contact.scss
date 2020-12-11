@@ -1,0 +1,82 @@
+$form-control-bg-color: #253D61;
+
+
+.contact{
+    padding: 70px 0 30px;
+    .container{
+        margin-bottom: 40px;
+        .lead-section-title{
+            font-family: $bodoni;
+            font-size: 30px;
+            font-weight: 300;
+            letter-spacing: 5px;
+            line-height: 4.5rem;
+        } 
+        .contact-form{
+            .form-group{
+                margin-bottom: 40px;
+                .form-control{
+                    background-color: rgba($form-control-bg-color,0.02);
+                    border: 0;
+                }
+                .mdms-link{
+                    color:$gray-900;
+                    font-size: 14px;
+                    letter-spacing: 0.5px;
+                    line-height: 1.7rem;
+                    border:1px solid $gray-900;
+                    background-color: $white;
+                }
+                .error-msg *{
+                    color:$danger;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}
+
+
+
+.contact-section{
+    padding: 30px 0;
+    background-color: $mademoiselle-color;
+    .contact-content{
+        p{
+            font-size: 16px;
+            font-weight: 300;
+            letter-spacing: 0;
+            line-height: 1.8rem;
+        }
+    }
+
+}
+
+@media(min-width:768px){
+
+    .contact{
+        padding-top: 150px;
+
+
+        .contact-map{
+            position: absolute;
+            top: 150px;
+            right: 0;
+            width: 45%;
+            height: 65%;
+        }
+    }
+
+    .contact-section{
+        padding: 60px 0;
+        background-color: $mademoiselle-color;
+        .contact-content{
+            p{
+                font-size: 24px;
+                font-weight: 300;
+                letter-spacing: 0;
+                line-height: 2.5;
+            }
+        }
+    }
+}

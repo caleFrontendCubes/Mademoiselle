@@ -7417,4 +7417,57 @@ footer {
     font-size: 44px;
     line-height: 5rem; } }
 
+.contact {
+  padding: 70px 0 30px; }
+  .contact .container {
+    margin-bottom: 40px; }
+    .contact .container .lead-section-title {
+      font-family: "Bodoni Bk BT", sans-serif;
+      font-size: 30px;
+      font-weight: 300;
+      letter-spacing: 5px;
+      line-height: 4.5rem; }
+    .contact .container .contact-form .form-group {
+      margin-bottom: 40px; }
+      .contact .container .contact-form .form-group .form-control {
+        background-color: rgba(37, 61, 97, 0.02);
+        border: 0; }
+      .contact .container .contact-form .form-group .mdms-link {
+        color: #1E1E1E;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        line-height: 1.7rem;
+        border: 1px solid #1E1E1E;
+        background-color: #fff; }
+      .contact .container .contact-form .form-group .error-msg * {
+        color: #dc3545;
+        font-size: 1.3rem; }
+
+.contact-section {
+  padding: 30px 0;
+  background-color: #ECD9D9; }
+  .contact-section .contact-content p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1.8rem; }
+
+@media (min-width: 768px) {
+  .contact {
+    padding-top: 150px; }
+    .contact .contact-map {
+      position: absolute;
+      top: 150px;
+      right: 0;
+      width: 45%;
+      height: 65%; }
+  .contact-section {
+    padding: 60px 0;
+    background-color: #ECD9D9; }
+    .contact-section .contact-content p {
+      font-size: 24px;
+      font-weight: 300;
+      letter-spacing: 0;
+      line-height: 2.5; } }
+
 /*# sourceMappingURL=theme.css.map */

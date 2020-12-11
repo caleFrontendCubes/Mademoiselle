@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Mademoiselle</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Stanislava Jovanovic">
+        <meta name="description" content="Latest beauty trends and beauty services for female and male">
+        <meta name="keywords" content="beauty, makeup, trend, haircut...">
+
+
+        <!--ios compatibility-->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Mademoiselle">
+        <link rel="apple-touch-icon" href="apple-icon-144x144.png">
+
+
+        <!--Android compatibility-->
+
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="Mademoiselle">
+        <link rel="icon" type="image/png" href="android-icon-192x192.png">
+
+
+        <!--CSS FILES-->
+
+        <link href="css/theme.css" rel="stylesheet" type="text/css"/>
+
+
+
+    </head>
+
+    <body>
+        <header class="fixed-top bg-white">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light ">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo.png" alt=""/>
+                    </a>
+                    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="about.html">about</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-uppercase" href="service.html">services<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="blog.html">blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase active" href="contact.html">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div><!--.container end-->
+        </header><!--header end-->
+
+
+        <main>
+            <section class="lead-page-section contact position-relative">
+                <div class="container animation" data-animation="slide-right">
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-md-6 col-lg-5">
+                            <h1 class="lead-section-title mb-6 text-uppercase">
+                                Please contact us using
+                                the form bellow
+                            </h1>
+                            <form class="contact-form position-relative" action="" method="get">
+                                <div class='form-group'>
+                                    <input type="text" name="name" value="" class="form-control" placeholder='Name and surname *'> 
+                                    <div class="error-msg"></div>
+                                </div>
+                                <div class='form-group'>
+                                    <input type="email" name="email" value="" class="form-control" placeholder='Email address *'> 
+                                    <div class="error-msg"></div>
+                                </div>
+                                <div class='form-group'>
+                                    <input type="text" name="subject" value="" class="form-control" placeholder='Subject *'> 
+                                    <div class="error-msg"></div>
+                                </div>
+                                <div class='form-group'>
+                                    <textarea name="message" placeholder="Enter your message *" class="form-control" rows='7'></textarea>
+                                    <div class="error-msg"></div>
+                                </div>
+                                <div class="form-group">
+                                    <button class="mdms-link px-5 py-3 text-uppercase" type="submit" name="send" value="true">send message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map h-100">
+                    <div class="embed-responsive embed-responsive-21by9 h-75">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7880.2326896436525!2d151.1995427208219!3d-33.857970424310615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12af0e19d32a13%3A0x7cf6e062cedd1899!2sSydney%20Cove%20Overseas%20Passenger%20Terminal!5e0!3m2!1ssr!2srs!4v1607695535360!5m2!1ssr!2srs" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact-section mb-6">
+                <div class="container text-center">
+                    <article class="contact-content px-4 py-5 animation" data-animation="slide-top">
+                        <p class="info-address animation" data-animation="slide-top" data-delay="0s">
+                            146 Douglas Dale Suite 343
+                        </p>
+                        <p class="info-phone animation" data-animation="slide-top" data-delay="0.2s">
+                            <a href="tel:560-748-5959">560-748-5959</a>
+                        </p>
+                        <p class="info-email animation" data-animation="slide-top" data-delay="0.4s">
+                            <a href="mailto:cullen_mueller@yahoo.com">cullen_mueller@yahoo.com</a>
+                        </p>
+                    </article>
+                </div><!--container end-->
+            </section><!--contact-section end-->
+        </main><!--main end-->
+
+        <footer>
+            <div class="container text-center align-items-sm-center">
+                <nav class="social mb-4">
+                    <a class="fab fa-facebook-f" href="https://facebook.com"></a>
+                    <a class="fab fa-twitter" href="https://twitter.com"></a>
+                    <a class="fab fa-instagram" href="https://instagram.com"></a>
+                </nav>
+
+                <p class="copyright">Copyright &copy; 2019 <a href="index.html">Mademoiselle</a></p>
+            </div>
+        </footer><!--footer end-->
+
+
+
+
+
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+        <!--font awesome icons-->
+        <script src="https://kit.fontawesome.com/85bd05dd45.js"></script>
+        <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+    </body>
+</html>
