@@ -1,6 +1,6 @@
 .blog-section{
     padding: 8rem 0;
-    
+
     .blog-item{
         figure{
             a{
@@ -28,6 +28,73 @@
                     text-align: center;
                     height: 2*2.4rem;
                     overflow: hidden;
+                }
+            }
+        }
+    }
+    .blog-items-slider{
+        .owl-nav{
+            position: relative;
+            .owl-prev{
+                position: absolute;
+                left: 40%;
+                color: lighten($gray-900,60);
+                &:hover{
+                    color: lighten($gray-900,20);
+                    background-color: transparent;
+                }
+            }
+            .owl-next{
+                position: absolute;
+                right: 40%;
+                color: lighten($gray-900,60);
+                &:hover{
+                    color: lighten($gray-900,20);
+                    background-color: transparent;
+                }
+            }
+        }
+        .owl-dots{
+            .owl-dot{
+                span:first-of-type{
+                    background: transparent;
+                    width: auto;
+                    height: auto;
+                    border-radius: 0;
+                    color:$gray-900;
+                    font-family: $bodoni;
+                    &:after{
+                        content:'1';  
+                    }
+                }
+                &:nth-of-type(2){
+                    span{
+                        &:after{
+                            content:'2'; 
+                        }
+                    }
+                }
+                &:last-of-type{
+                    span{
+                        &:after{
+                            content:'3'; 
+                        }
+                    } 
+                }
+            }
+        }
+
+    }
+}
+@media(min-width:768px){
+    .blog-section{
+        .blog-items-slider{
+            .owl-nav{
+                .owl-prev{
+                    left: 44%;
+                }
+                .owl-next{
+                    right: 44%;
                 }
             }
         }
