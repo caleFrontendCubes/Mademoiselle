@@ -3,8 +3,6 @@ $navbar-toggler-bg: $mademoiselle-color;
 $link-border-color:$mademoiselle-color;
 
 header{
-
-    padding: 28px 0;
     .navbar-light{
 
     }
@@ -29,7 +27,7 @@ header{
         }// navbar-toggler-end
         
         .navbar-collapse{
-            padding-top: 30px;
+            padding: 17px 0;
         }
 
         .navbar-nav{

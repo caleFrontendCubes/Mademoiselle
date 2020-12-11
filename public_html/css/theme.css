@@ -7123,7 +7123,7 @@ body {
   color: #1E1E1E; }
 
 main {
-  padding-top: 10rem; }
+  padding-top: 0.8rem; }
 
 h2 {
   font-family: "Bodoni Bk BT", sans-serif;
@@ -7144,28 +7144,29 @@ a.learn-more {
   a.learn-more {
     padding: 15px 36px; } }
 
-header {
-  padding: 28px 0; }
-  header .navbar .navbar-brand img {
-    height: 25px; }
-  header .navbar .navbar-toggler span {
-    display: block;
-    width: 30px;
-    height: 3px;
-    margin-bottom: 5px;
-    background-color: #ECD9D9; }
-    header .navbar .navbar-toggler span:last-of-type {
-      margin-bottom: 0; }
-  header .navbar .navbar-collapse {
-    padding-top: 30px; }
-  header .navbar .navbar-nav a {
-    font-size: 1.4rem;
-    line-height: 1.7rem;
-    padding: 10px;
-    text-align: center;
-    border-bottom: 1px solid transparent; }
-    header .navbar .navbar-nav a:hover, header .navbar .navbar-nav a.active {
-      border-bottom: 1px solid #ECD9D9; }
+header .navbar .navbar-brand img {
+  height: 25px; }
+
+header .navbar .navbar-toggler span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: #ECD9D9; }
+  header .navbar .navbar-toggler span:last-of-type {
+    margin-bottom: 0; }
+
+header .navbar .navbar-collapse {
+  padding: 17px 0; }
+
+header .navbar .navbar-nav a {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid transparent; }
+  header .navbar .navbar-nav a:hover, header .navbar .navbar-nav a.active {
+    border-bottom: 1px solid #ECD9D9; }
 
 @media (min-width: 768px) {
   header .navbar-nav li {
@@ -7192,6 +7193,8 @@ footer {
   background-position: center;
   background-size: auto 100%;
   background-repeat: no-repeat; }
+  .lead-page-section.service {
+    background-size: cover; }
   .lead-page-section .lead-section-content {
     margin: 0 auto; }
     .lead-page-section .lead-section-content article {
@@ -7245,7 +7248,7 @@ footer {
   .service-section .service-item .services-item-content {
     padding: 70px; }
     .service-section .service-item .services-item-content h1 {
-      font-size: 2rem; }
+      font-size: 1.7rem; }
     .service-section .service-item .services-item-content.light {
       background-color: #F5F5F5; }
     .service-section .service-item .services-item-content.dark {
