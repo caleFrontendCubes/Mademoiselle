@@ -1,0 +1,29 @@
+.service-single-section{
+    padding-top: 100px;
+    .service-single-item{
+        .service-single-item-content{
+            h1{
+                line-height: 5rem;
+                font-size: 44px;
+            }
+            .service-single-item-content{
+                font-size: 18px;
+                font-weight: $font-weight-light;
+                letter-spacing: 0;
+                line-height: 2.6rem;
+            }
+        }
+    }
+
+}
+@media(min-width:768px){
+    .service-single-section{
+        padding-top: 150px;
+    }
+}
+
+@media(min-width:992px){
+    .service-single-section{
+        padding: 250px 0 50px;
+    }
+}
