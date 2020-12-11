@@ -1,0 +1,90 @@
+.blog-single{
+    padding: 70px 0 100px;
+    .lead-section-content{
+        p{
+            .category{
+                font-family: $bodoni;
+                font-size: 14px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                line-height: 17px;
+                margin-right: 5px;
+            }
+            .date-published{
+                font-family: $bodoni;
+                font-size: 14px;
+                font-style: italic;
+                font-weight: $font-weight-light;
+                letter-spacing: 1px;
+                line-height: 17px;
+                margin-left: 5px;
+            }
+        } 
+
+        .lead-section-title{
+            font-size: 32px;
+            letter-spacing: 0;
+            line-height: 3.4rem;
+        }
+        .lead-section-description{
+            font-size: 20px;
+            font-weight: $font-weight-light;
+            letter-spacing: 0;
+            line-height: 2.8rem;
+        }
+    }
+
+}
+.blog-single-content{
+    article{
+        p{
+            font-size: 18px;
+            font-weight: $font-weight-light;
+            letter-spacing: 0;
+            line-height: 2.6rem;
+            text-align: justify;
+            margin-bottom: 50px;
+        }
+    }
+    .blog-tags{
+        margin-bottom: 100px;
+        .tag-title{
+            font-family: $bodoni;
+            font-style: italic;
+            font-weight: $font-weight-light;
+            letter-spacing: 0;
+            line-height: 2.7rem;
+            margin-bottom: 19px;
+        }
+    }
+}
+
+@media(min-width:768px){
+    .blog-single{
+        padding-top: 150px;
+    }
+}
+
+@media(min-width:992px){
+    .blog-single{
+        padding: 218px 0 100px;
+    }
+    .blog-single-content{
+        .blog-tags{
+            margin-bottom: 250px;
+        }
+    }
+}
+@media(min-width:1200px){
+    .blog-single{
+        .lead-section-content{
+            .lead-section-title{
+                font-size: 44px;
+                line-height: 5rem;
+            }
+        }
+    }
+}
+
+
+
