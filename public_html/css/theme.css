@@ -7193,17 +7193,14 @@ footer {
   background-position: center;
   background-size: auto 100%;
   background-repeat: no-repeat; }
-  .lead-page-section.service {
-    background-size: cover; }
   .lead-page-section.error {
-    padding: 277px 0;
-    background-size: cover; }
+    padding: 277px 0; }
   .lead-page-section .lead-section-content {
     margin: 0 auto; }
     .lead-page-section .lead-section-content article {
       text-align: center; }
       .lead-page-section .lead-section-content article .lead-section-title {
-        font-size: 3.6rem;
+        font-size: 5rem;
         font-weight: 300;
         line-height: 7rem;
         letter-spacing: 0.8rem;
@@ -7213,7 +7210,7 @@ footer {
 
 @media (min-width: 576px) {
   .lead-page-section .lead-section-content article .lead-section-title {
-    font-size: 5rem;
+    font-size: 5.5rem;
     line-height: 7.8rem;
     letter-spacing: 1.5rem; } }
 
@@ -7469,5 +7466,38 @@ footer {
       font-weight: 300;
       letter-spacing: 0;
       line-height: 2.5; } }
+
+.about {
+  padding: 300px 0 269px; }
+
+.about-section .about-item h1 {
+  line-height: 5rem;
+  font-size: 44px;
+  max-width: 400px; }
+
+.about-section .about-item p {
+  font-size: 20px;
+  line-height: 2.8rem;
+  margin-bottom: 40px; }
+
+.about-section .blog-form .form-control {
+  line-height: 6.9rem;
+  font-size: 18px;
+  font-style: italic;
+  font-family: "Bodoni Bk BT", sans-serif;
+  padding: 20px; }
+
+.about-section .blog-form .blog-form-btn {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0; }
+  .about-section .blog-form .blog-form-btn span {
+    color: #1E1E1E;
+    opacity: 0.3; }
+
+.about-section .blog-section {
+  padding-top: 0; }
 
 /*# sourceMappingURL=theme.css.map */

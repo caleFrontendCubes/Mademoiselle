@@ -5,22 +5,19 @@
     background-position: center;
     background-size: auto 100%;
     background-repeat: no-repeat;
-    &.service{
-        background-size: cover;
-    }
+    
     &.error{
         padding: 277px 0;
-        background-size: cover;
     }
     .lead-section-content{
         margin: 0 auto;
         article{
             text-align: center;
             .lead-section-title{
-                font-size: 3.6rem;//6
+                font-size: 5rem;
                 font-weight: $font-weight-light;
-                line-height: 7rem;//8.4
-                letter-spacing: 0.8rem;//2
+                line-height: 7rem;
+                letter-spacing: 0.8rem;
                 color: $white;
                 font-family: $bodoni;
                 max-width: 500px;
@@ -35,7 +32,7 @@
         .lead-section-content{
             article{
                 .lead-section-title{
-                    font-size: 5rem;
+                    font-size: 5.5rem;
                     line-height: 7.8rem;
                     letter-spacing: 1.5rem;
                 }  

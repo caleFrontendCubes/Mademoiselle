@@ -1,0 +1,44 @@
+.about{
+    padding: 300px 0 269px;
+}
+.about-section{
+    .about-item{
+        h1{
+            line-height: 5rem;
+            font-size: 44px;
+            max-width: 400px;
+        }
+        p{
+            font-size: 20px;
+            line-height: 2.8rem;
+            margin-bottom: 40px;
+        }
+    }
+
+    .blog-form{
+        .form-control{
+            line-height: 6.9rem;
+            font-size: 18px;
+            font-style: italic;
+            font-family: $bodoni;
+            padding: 20px;
+        }
+        .blog-form-btn{
+            border: none;
+            background-color: transparent;
+            position: absolute;
+            top: 0;
+            right: 0;
+            span{
+                color: $gray-900;
+                opacity: 0.3;
+            }
+        }
+    }
+    .blog-section{
+        padding-top: 0;
+    }
+}
+
+
+
